@@ -1,6 +1,7 @@
 import axios from 'axios'
 import { generateSign, store } from './common'
 export { setAuth } from './common'
+export { LANG_CODE } from './common/langCode'
 
 export async function translate(keyworld: string | string[], to = 'en'): Promise<TRANSLATE.Result[]> {
     if (Array.isArray(keyworld)) keyworld = keyworld.join(`\n`)
