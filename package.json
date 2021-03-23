@@ -21,8 +21,9 @@
   "author": "大板栗 <576839360@qq.com>",
   "license": "MIT",
   "keywords": [
-    "translate",
     "fanyi",
+    "baidu",
+    "translate",
     "fayi.baidu.com"
   ],
   "devDependencies": {
