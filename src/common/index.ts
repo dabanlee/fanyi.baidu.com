@@ -1,7 +1,7 @@
 import md5 from 'md5'
 
 export const store: {
-    auth?: Partial<TRANSLATE.Auth>,
+    auth?: Partial<BAIDU_TRANSLATE.Auth>,
     URL: string,
 } = {
     auth: {},
