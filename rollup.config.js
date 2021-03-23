@@ -2,7 +2,6 @@ import { terser } from 'rollup-plugin-terser'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
 import typescript from 'rollup-plugin-typescript2'
 import commonjs from '@rollup/plugin-commonjs'
-import axios from 'axios'
 
 const isProd = process.env.NODE_ENV === 'production'
 const { moduleName, dependencies = {}, peerDependencies = {} } = require('./package.json')
